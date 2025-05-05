@@ -11,7 +11,8 @@
 
 ### Project 1
 
-<pre> ```python def hello(): print("Hello, world!") ``` </pre>
+<pre> ```$env:PYTHONPATH = "..;." python your_script.py ``` </pre>
+
 
 ### Project 2
 
