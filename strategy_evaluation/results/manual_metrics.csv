@@ -1,0 +1,6 @@
+,Manual Strategy (In-Sample),Benchmark (In-Sample),Manual Strategy (Out-Sample),Benchmark (Out-Sample)
+Cumulative Return,0.062056,-0.083747,-0.035245,-0.109782
+Mean Daily Return,0.00024,-1e-05,-3.7e-05,-0.000204
+Std Dev of Daily Return,0.01523,0.018504,0.00871,0.008546
+Final Value,1.062056,0.916253,0.964755,0.890218
+Sharpe Ratio,0.250156,-0.008579,-0.067435,-0.378937

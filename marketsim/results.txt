@@ -1,0 +1,252 @@
+orders/orders-01.csv
+Date Range: 2011-01-10 00:00:00 to 2011-12-28 00:00:00
+Sharpe Ratio of Fund: 0.44480296720305573
+Sharpe Ratio of $SPX: 0.04809511629077208
+Cumulative Return of Fund: 0.07643586502897848
+Cumulative Return of $SPX: -0.01583776333923992
+Standard Deviation of Fund: 0.014579040671892895
+Standard Deviation of $SPX: 0.014859633600784088
+Average Daily Return of Fund: 0.00040850403706453256
+Average Daily Return of $SPX: 4.502034406882114e-05
+Final Portfolio Value: 1073672.2504999996
+
+-----------------------------------------------------
+
+orders/orders-02.csv
+Date Range: 2011-01-10 00:00:00 to 2011-12-28 00:00:00
+Sharpe Ratio of Fund: 0.7522160309823378
+Sharpe Ratio of $SPX: 0.04809511629077208
+Cumulative Return of Fund: 0.06962226668385507
+Cumulative Return of $SPX: -0.01583776333923992
+Standard Deviation of Fund: 0.006229288754288692
+Standard Deviation of $SPX: 0.014859633600784088
+Average Daily Return of Fund: 0.0002951758191203858
+Average Daily Return of $SPX: 4.502034406882114e-05
+Final Portfolio Value: 1064130.0237500002
+
+-----------------------------------------------------
+
+orders/orders-03.csv
+Date Range: 2011-01-10 00:00:00 to 2011-12-20 00:00:00
+Sharpe Ratio of Fund: -0.8916110128803354
+Sharpe Ratio of $SPX: 0.01833898074435265
+Cumulative Return of Fund: -0.16527883474836214
+Cumulative Return of $SPX: -0.02240598543020278
+Standard Deviation of Fund: 0.012141873456462863
+Standard Deviation of $SPX: 0.014971609152168636
+Average Daily Return of Fund: -0.0006819630682034664
+Average Daily Return of $SPX: 1.7295909533986405e-05
+Final Portfolio Value: 832578.1229999999
+
+-----------------------------------------------------
+
+orders/orders-04.csv
+Date Range: 2008-01-14 00:00:00 to 2008-12-12 00:00:00
+Sharpe Ratio of Fund: -0.37719160020003106
+Sharpe Ratio of $SPX: -1.0218533921346693
+Cumulative Return of Fund: -0.09996022858754938
+Cumulative Return of $SPX: -0.3788314210061783
+Standard Deviation of Fund: 0.01461332486339686
+Standard Deviation of $SPX: 0.026439963586010473
+Average Daily Return of Fund: -0.00034722483593577355
+Average Daily Return of $SPX: -0.0017019593114750331
+Final Portfolio Value: 897088.4960000007
+
+-----------------------------------------------------
+
+orders/orders-05.csv
+Date Range: 2009-05-04 00:00:00 to 2010-07-06 00:00:00
+Sharpe Ratio of Fund: 2.1154616757915536
+Sharpe Ratio of $SPX: 0.6477398533136979
+Cumulative Return of Fund: 0.40044414996108024
+Cumulative Return of $SPX: 0.13317314051408657
+Standard Deviation of Fund: 0.008865784108620212
+Standard Deviation of $SPX: 0.012212661553030791
+Average Daily Return of Fund: 0.0011814682171873742
+Average Daily Return of $SPX: 0.0004983226988522808
+Final Portfolio Value: 1398568.1849999998
+
+-----------------------------------------------------
+
+orders/orders-06.csv
+Date Range: 2007-01-10 00:00:00 to 2007-11-07 00:00:00
+Sharpe Ratio of Fund: -1.3716068116688336
+Sharpe Ratio of $SPX: 0.4097723288825013
+Cumulative Return of Fund: -0.11730905624689603
+Cumulative Return of $SPX: 0.04295154963423675
+Standard Deviation of Fund: 0.006653341170176702
+Standard Deviation of $SPX: 0.009568942261572715
+Average Daily Return of Fund: -0.0005748693531907105
+Average Daily Return of $SPX: 0.00024700531118632634
+Final Portfolio Value: 881616.4219999998
+
+-----------------------------------------------------
+
+orders/orders-07.csv
+Date Range: 2009-01-14 00:00:00 to 2009-12-21 00:00:00
+Sharpe Ratio of Fund: 1.98406389810517
+Sharpe Ratio of $SPX: 1.2269376912931218
+Cumulative Return of Fund: 0.10011220451694869
+Cumulative Return of $SPX: 0.3221262253447579
+Standard Deviation of Fund: 0.0032781407265320413
+Standard Deviation of $SPX: 0.017227816879612223
+Average Daily Return of Fund: 0.0004097160506116878
+Average Daily Return of $SPX: 0.0013315346873239609
+Final Portfolio Value: 1100031.1510000003
+
+-----------------------------------------------------
+
+orders/orders-08.csv
+Date Range: 2010-01-12 00:00:00 to 2010-12-07 00:00:00
+Sharpe Ratio of Fund: 0.8343753224155628
+Sharpe Ratio of $SPX: 0.5295861584383843
+Cumulative Return of Fund: 0.06614552830772147
+Cumulative Return of $SPX: 0.07703613736776327
+Standard Deviation of Fund: 0.005647631320200938
+Standard Deviation of $SPX: 0.011858377923768358
+Average Daily Return of Fund: 0.00029684348285558676
+Average Daily Return of $SPX: 0.0003956048819161368
+Final Portfolio Value: 1065969.5369999998
+
+-----------------------------------------------------
+
+orders/orders-09.csv
+Date Range: 2011-01-10 00:00:00 to 2011-03-03 00:00:00
+Sharpe Ratio of Fund: 1.927821223372771
+Sharpe Ratio of $SPX: 2.6555388184943167
+Cumulative Return of Fund: 0.04399880438387882
+Cumulative Return of $SPX: 0.04821421539673176
+Standard Deviation of Fund: 0.010279739835772666
+Standard Deviation of $SPX: 0.008011281206457185
+Average Daily Return of Fund: 0.0012483851967539958
+Average Daily Return of $SPX: 0.0013401529300109435
+Final Portfolio Value: 1035078.2000000004
+
+-----------------------------------------------------
+
+orders/orders-10.csv
+Date Range: 2011-01-10 00:00:00 to 2011-08-01 00:00:00
+Sharpe Ratio of Fund: 0.6276435757017756
+Sharpe Ratio of $SPX: 0.24780933532640506
+Cumulative Return of Fund: 0.029300927969946766
+Cumulative Return of $SPX: 0.013538098050797531
+Standard Deviation of Fund: 0.00561522291027526
+Standard Deviation of $SPX: 0.008406185027849167
+Average Daily Return of Fund: 0.00022201372259420538
+Average Daily Return of $SPX: 0.00013122492627269864
+Final Portfolio Value: 1026658.3265
+
+-----------------------------------------------------
+
+orders/orders-11.csv
+Date Range: 2011-01-10 00:00:00 to 2011-03-03 00:00:00
+Sharpe Ratio of Fund: 0.7861308956254608
+Sharpe Ratio of $SPX: 2.6555388184943167
+Cumulative Return of Fund: 0.018663926721460555
+Cumulative Return of $SPX: 0.04821421539673176
+Standard Deviation of Fund: 0.011736615033517937
+Standard Deviation of $SPX: 0.008011281206457185
+Average Daily Return of Fund: 0.0005812158566154227
+Average Daily Return of $SPX: 0.0013401529300109435
+Final Portfolio Value: 1009959.8000000003
+
+-----------------------------------------------------
+
+orders/orders-12.csv
+Date Range: 2011-01-10 00:00:00 to 2011-12-20 00:00:00
+Sharpe Ratio of Fund: 1.2640874971014495
+Sharpe Ratio of $SPX: 0.01833898074435265
+Cumulative Return of Fund: 0.7099374170761656
+Cumulative Return of $SPX: -0.02240598543020278
+Standard Deviation of Fund: 0.03644694476633911
+Standard Deviation of $SPX: 0.014971609152168636
+Average Daily Return of Fund: 0.002902271212087705
+Average Daily Return of $SPX: 1.7295909533986405e-05
+Final Portfolio Value: 1705547.3664999998
+
+-----------------------------------------------------
+
+orders/orders-leverage-1.csv
+Date Range: 2011-01-10 00:00:00 to 2011-06-10 00:00:00
+Sharpe Ratio of Fund: 0.35360861082152784
+Sharpe Ratio of $SPX: 0.08147924621784158
+Cumulative Return of Fund: 0.013378221912482502
+Cumulative Return of $SPX: 0.000968694624926103
+Standard Deviation of Fund: 0.006677413745158521
+Standard Deviation of $SPX: 0.008015275011576065
+Average Daily Return of Fund: 0.00014874105189148143
+Average Daily Return of $SPX: 4.114008268279853e-05
+Final Portfolio Value: 1010776.5
+
+-----------------------------------------------------
+
+orders/orders-leverage-2.csv
+Date Range: 2011-01-10 00:00:00 to 2011-03-03 00:00:00
+Sharpe Ratio of Fund: -1.540144856245289
+Sharpe Ratio of $SPX: 2.6555388184943167
+Cumulative Return of Fund: -0.9567800002289609
+Cumulative Return of $SPX: 0.04821421539673176
+Standard Deviation of Fund: 1.2061663015323532
+Standard Deviation of $SPX: 0.008011281206457185
+Average Daily Return of Fund: -0.11702226240442161
+Average Daily Return of $SPX: 0.0013401529300109435
+Final Portfolio Value: 42850.69999999553
+
+-----------------------------------------------------
+
+orders/orders-leverage-3.csv
+Date Range: 2011-01-10 00:00:00 to 2011-08-01 00:00:00
+Sharpe Ratio of Fund: 2.829085741264686
+Sharpe Ratio of $SPX: 0.24780933532640506
+Cumulative Return of Fund: 0.7134642936408864
+Cumulative Return of $SPX: 0.013538098050797531
+Standard Deviation of Fund: 0.02307723609414422
+Standard Deviation of $SPX: 0.008406185027849167
+Average Daily Return of Fund: 0.00411272463570231
+Average Daily Return of $SPX: 0.00013122492627269864
+Final Portfolio Value: 1709065.1882500001
+
+-----------------------------------------------------
+
+orders/orders-short.csv
+Date Range: 2011-01-05 00:00:00 to 2011-01-20 00:00:00
+Sharpe Ratio of Fund: -1.0001502536284639
+Sharpe Ratio of $SPX: 0.8821686797761558
+Cumulative Return of Fund: -0.004470595376707243
+Cumulative Return of $SPX: 0.002898414488939016
+Standard Deviation of Fund: 0.006780732744575785
+Standard Deviation of $SPX: 0.005449335219909275
+Average Daily Return of Fund: -0.0004272101933083472
+Average Daily Return of $SPX: 0.00030282720554656304
+Final Portfolio Value: 993036.375
+
+-----------------------------------------------------
+
+orders/orders.csv
+Date Range: 2011-01-10 00:00:00 to 2011-12-20 00:00:00
+Sharpe Ratio of Fund: 0.9976545218777993
+Sharpe Ratio of $SPX: 0.01833898074435265
+Cumulative Return of Fund: 0.1088726985444255
+Cumulative Return of $SPX: -0.02240598543020278
+Standard Deviation of Fund: 0.0073050991683510655
+Standard Deviation of $SPX: 0.014971609152168636
+Average Daily Return of Fund: 0.000459098655492976
+Average Daily Return of $SPX: 1.7295909533986405e-05
+Final Portfolio Value: 1106025.8065
+
+-----------------------------------------------------
+
+orders/orders2.csv
+Date Range: 2011-01-14 00:00:00 to 2011-12-14 00:00:00
+Sharpe Ratio of Fund: 0.5526049079872948
+Sharpe Ratio of $SPX: -0.1772030199062097
+Cumulative Return of Fund: 0.053841119695063444
+Cumulative Return of $SPX: -0.06295815161918905
+Standard Deviation of Fund: 0.007281729103234471
+Standard Deviation of $SPX: 0.015056485572416355
+Average Daily Return of Fund: 0.00025348308589782996
+Average Daily Return of $SPX: -0.00016807164890168062
+Final Portfolio Value: 1051088.0915
+
+-----------------------------------------------------
+
