@@ -11,6 +11,7 @@
 
 ### Project 1
 
+<pre> ```python def hello(): print("Hello, world!") ``` </pre>
 
 ### Project 2
 
