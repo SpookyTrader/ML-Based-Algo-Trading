@@ -13,13 +13,13 @@
 
 For Linux/Ubuntu
 ```
-PYTHONPATH=../:. python testproject.py
+PYTHONPATH=../:. python martingale.py
 ```
 
 For Window Powershell
 ```
 $env:PYTHONPATH = "..;."
-python testproject.py
+python martingale.py
 ```
 
 ### Project 2
@@ -36,10 +36,29 @@ python testproject.py
 
 ### Project 4
 
+For Linux/Ubuntu
+```
+PYTHONPATH=../:. python testbest4.py
+```
+
+For Window Powershell
+```
+$env:PYTHONPATH = "..;."
+python testbest4.py
+```
 
 ### Project 5
 
+For Linux/Ubuntu
+```
+PYTHONPATH=../:. python testproject.py
+```
 
+For Window Powershell
+```
+$env:PYTHONPATH = "..;."
+python testproject.py
+```
 
 ### Project 6
 
@@ -61,7 +80,16 @@ python testproject.py
 
 ### Project 7
 
+For Linux/Ubuntu
+```
+PYTHONPATH=../:. python testqlearner.py
+```
 
+For Window Powershell
+```
+$env:PYTHONPATH = "..;."
+python testqlearner.py
+```
 
 ### Capstone Project
 
