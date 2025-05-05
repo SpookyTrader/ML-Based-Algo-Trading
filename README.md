@@ -11,7 +11,7 @@
 
 ### Project 1
 
-<pre> ```$env:PYTHONPATH = "..;." python your_script.py ``` </pre>
+<pre>```$env:PYTHONPATH = "..;." python your_script.py```</pre>
 
 
 ### Project 2
