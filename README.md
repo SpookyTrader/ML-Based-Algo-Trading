@@ -50,7 +50,7 @@ python optimization.py
 ### Project 3 (assess_learners):
 The goal of this project is to construct and implement 4 supervised regression learners from an algorithmic family called Classification and Regression Trees (CARTs)
 from scratch according to the JR Quinlan method. Specifically, a decision tree, a random decision tree, an ensemble bag learner that incorporate bootstrap aggregation 
-with any basic learner, and an insane learner that consists of a collection of 20 bag learners are implemented. The effects of leaf size and number of bags on overfitting
+with any basic learner, and an insane learner that consists of a collection of 20 bag learners are implemented. The effects of leaf size and bagging on overfitting
 and underfitting are investigated by applying the algorithms on a dataset to predict the return of MSCI Emerging Markets index from that of the other market indices.
 Figure 3 shows the effects of leaf size and bagging on overfitting of decision tree.
 
@@ -58,7 +58,7 @@ Figure 3 shows the effects of leaf size and bagging on overfitting of decision t
   <img src="https://github.com/user-attachments/assets/cafb9270-606e-4947-a678-8b1b3318119b" alt="Diagram" width="500" height='400'/>
   <img src="https://github.com/user-attachments/assets/c59d5d2a-3aef-41b7-a371-7a4c946075a1" alt="Diagram" width="500" height='400'/>
 </p>
-<p align="center"><em>Figure 3: Effects of leaf size and bagging on overfitting of decision tree.</em></p>
+<p align="center"><em>Figure 3: Effects of leaf size and bagging on overfitting of decision tree. [Left] No bagging. [Right] With 20 bags.</em></p>
 
 The scripts for generating the results can be run by executing the commands as following.
 
@@ -131,6 +131,8 @@ In this project, the goals are:
 </p>
 <p align="center"><em>Figure 6: Maximum performance that can be achieved assuming we can see the future. Benchmark = Buy and hold strategy.</em></p>
 
+The scripts for generating the results can be run by executing the commands as following.
+
 For Linux/Ubuntu
 ```
 PYTHONPATH=../:. python testproject.py
@@ -142,8 +144,8 @@ python testproject.py
 ```
 
 ### Project 7 (qlearning_robot):
-The goal of this project is to implement the Q-Learning and Dyna-Q solutions to the reinforcement learning problem via application in a navigation problem. 
-It can be adapted for application in trading subsequently in the capstone project. 
+The goal of this project is to implement Q-Learning and Dyna-Q solutions to the reinforcement learning problem via application in a robot navigation problem. 
+The qlearner can be adapted for application in trading subsequently in the capstone project. The scripts can be run by executing the commands as following.
 
 For Linux/Ubuntu
 ```
@@ -157,7 +159,7 @@ python testqlearner.py
 
 ### Capstone Project (strategy evaluation):
 The goal of this final project is to synthesize all the investing and machine learning concepts learnt by integrating the technical components developed in the 
-earlier projects into the implementation of an AI-based trading system. Random forest classifier is trained with dataset comprising values of 3 indicators and JPM 
+earlier projects into the implementation of an AI-based trading system. Random forest classifier is trained with dataset comprising values of the 3 indicators and JPM 
 stock prices to let it learn the relationship (if any) between the indicators and daily returns. The classifier is adapted from the random decision trees and bag 
 learner developed in project 3. Predictions from the classifier are used to generate 'long', 'short' and 'No Action' trading signals. This is called Strategy Learner
 here. To facilialte evaluation, a human intuition-learnt rule-based strategy (called Manual Strategy here) is also developed for comparison with the AI-based strategy.
