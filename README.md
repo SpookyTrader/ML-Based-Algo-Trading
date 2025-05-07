@@ -48,7 +48,29 @@ python optimization.py
 ```
 
 ### Project 3
+The goal of this project is to construct and implement 4 supervised regression learners from an algorithmic family called Classification and Regression Trees (CARTs)
+from scratch according to the JR Quinlan method. Specifically, a decision tree, a random decision tree, an ensemble bag learner that incorporate bootstrap aggregation 
+with any basic learner, and an insane learner that consists of a collection of 20 bag learners are implemented. The effects of leaf size and number of bags on overfitting
+and underfitting are investigated by applying the algorithms on a dataset to predict the return of MSCI Emerging Markets index from that of the other market indices.
+Figure 3 shows the effects of leaf size and bagging on overfitting of decision tree.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cafb9270-606e-4947-a678-8b1b3318119b" alt="Diagram" width="500" height='400'/>
+  <img src="https://github.com/user-attachments/assets/c59d5d2a-3aef-41b7-a371-7a4c946075a1" alt="Diagram" width="500" height='400'/>
+</p>
+<p align="center"><em>Figure 3: Effects of leaf size and bagging on overfitting of decision tree.</em></p>
+
+The scripts for generating the results can be run by executing the commands as following.
+
+For Linux/Ubuntu
+```
+PYTHONPATH=../:. python testlearner.py
+```
+For Window Powershell
+```
+$env:PYTHONPATH = "..;."
+python testlearner.py
+```
 
 ### Project 4
 
