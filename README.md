@@ -3,7 +3,7 @@ This repository is a catalog of projects I have completed as part of the course,
 Georgia Tech. Each project is a stepping stone to the capstone project in which students are required to build and evaluate a machine learning-based
 AI trading system. The smaller projects enable students to acquire the skills and knowledge required for constructing each component of the AI trading 
 system in final capstone project. The relationship of these projects in relation to the capstone is illustrated in Figure 1. The objective of each 
-project is as described below. Key results of each project is presented where appropriate.
+project is as described below. Key results of each project are presented where appropriate.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7faac237-3fa6-46f6-b221-d8677c183108" alt="Diagram" width="850" height='300'/>
@@ -26,13 +26,26 @@ python martingale.py
 ```
 
 ### Project 2
+The goal of this project is allow students to learn how to use the SciPy optimization function to determine the stock allocation in a portfolio that maximizes 
+specific portfolio performance metric, and familarize themselves with the implementation of several metrics commonly used in portfolio performance evaluation.
+Figure 2 compares the performances of a portfolio of optimized stock allocation and SPY index ETF.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6c41f3bf-d2ac-4586-93db-b48046cd521d" alt="Diagram" width="500" height='400'/>
 </p>
-<p align="center"><em>Figure 1: Building Blocks of A Machine Learning-Based AI Trading Agent.</em></p>
+<p align="center"><em>Figure 2: Comparison of optimized portfolio with SPY ETF. Portfolio is optimized for Sharpe ratio.</em></p>
 
+The scripts for generating the results can be run by executing the commands as following.
 
+For Linux/Ubuntu
+```
+PYTHONPATH=../:. python optimization.py
+```
+For Window Powershell
+```
+$env:PYTHONPATH = "..;."
+python optimization.py
+```
 
 ### Project 3
 
