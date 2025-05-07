@@ -107,21 +107,29 @@ python marketsim.py
 ```
 
 ### Project 6
-
+In this project, the goals are:
+1) Develop technical indicators illustrating how they might be used to generate trading signals. They will be utilized in the capstone project to devise an
+   intuition-based trading strategy and a Machine Learning-based trading strategy. 
+2) Develop a Theoretically Optimal Strategy which represents the maximum amount a portfolio can theoretically return.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f6a8381c-96e2-49ff-b633-1393991e39f0" alt="Diagram" width="500" height='400'/>
   <img src="https://github.com/user-attachments/assets/67a291aa-09c7-4de9-bdd6-126dd632998b" alt="Diagram" width="500" height='400'/>
 </p>
-<p align="center"><em>Figure 1: Building Blocks of A Machine Learning-Based AI Trading Agent.</em></p>
+<p align="center"><em>Figure 4: %B (left) and CCI (right) indicators identifying potential overbought and oversold price actions of JPM stock.</em></p>
+</p>
 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/720ae201-e1b9-4ae1-832d-758c73c54ab2" alt="Diagram" width="500" height='400'/>
   <img src="https://github.com/user-attachments/assets/10bf8776-e354-4ad4-a93b-96d76f98a8c0" alt="Diagram" width="500" height='400'/>
 </p>
-<p align="center"><em>Figure 1: Building Blocks of A Machine Learning-Based AI Trading Agent.</em></p>
+<p align="center"><em>Figure 5: Momentum (left) and PPO (right) indicators identifying potential change in price momentum and trend direction of JPM stock.</em></p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e674b26e-b6bc-49a8-9cce-d7c4dff081dc" alt="Diagram" width="500" height='400'/>
+</p>
+<p align="center"><em>Figure 6: Maximum performance that can be achieved assuming we can see the future. Benchmark = Buy and hold strategy.</em></p>
 
 
 ### Project 7
