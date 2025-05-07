@@ -10,7 +10,7 @@ project is as described below. Key results of each project are presented where a
 </p>
 <p align="center"><em>Figure 1: Relationship of the smaller projects in relation to the capstone project. (Source: Georgia Tech CS7646 Spring 2025 Canvas).</em></p>
 
-### Project 1 (martingale)
+### Project 1 (martingale):
 The goal of this project is to enable students to develope an understanding of common probabilistic and statistical concepts and tools associated with 
 machine learning, such as expectations, standard deviations, sampling, minimum values, maximum values and convergence via analysing the statistical
 properties of a martingale betting strategy. The scripts can be run by executing the commands as following.
@@ -25,7 +25,7 @@ $env:PYTHONPATH = "..;."
 python martingale.py
 ```
 
-### Project 2 (optimize_something)
+### Project 2 (optimize_something):
 The goal of this project is allow students to learn how to use the SciPy optimization function to determine the stock allocation in a portfolio that maximizes 
 specific portfolio performance metric, and familarize themselves with the implementation of several metrics commonly used in portfolio performance evaluation.
 Figure 2 compares the performances of a portfolio of optimized stock allocation and SPY index ETF.
@@ -47,7 +47,7 @@ $env:PYTHONPATH = "..;."
 python optimization.py
 ```
 
-### Project 3 (assess_learners)
+### Project 3 (assess_learners):
 The goal of this project is to construct and implement 4 supervised regression learners from an algorithmic family called Classification and Regression Trees (CARTs)
 from scratch according to the JR Quinlan method. Specifically, a decision tree, a random decision tree, an ensemble bag learner that incorporate bootstrap aggregation 
 with any basic learner, and an insane learner that consists of a collection of 20 bag learners are implemented. The effects of leaf size and number of bags on overfitting
@@ -72,7 +72,7 @@ $env:PYTHONPATH = "..;."
 python testlearner.py
 ```
 
-### Project 4 (defeat_learners)
+### Project 4 (defeat_learners):
 The goal of this project is to demonstrate the relative strengths and weaknesses of a Decision Tree learner as compared to a Linear Regression Learner by producing
 1) synthetic dataset that enable a linear regression learner to consistently outperform a decision tree learner.
 2) synthetic dataset that enable a decision tree learner to consistently outperform a linear regression learner. 
@@ -89,7 +89,7 @@ $env:PYTHONPATH = "..;."
 python testbest4.py
 ```
 
-### Project 5 (marketsim)
+### Project 5 (marketsim):
 The goal of project 5 is to create a market simulator that accepts trading orders, keeps track of and assess a portfolio’s value and performance over time.
 Develop an understanding of market costs and how they affect the value of a portfolio. Transaction costs are an important consideration of an investing strategy.
 Transaction costs include things like commissions, slippage, market impact, and tax considerations. High transaction costs encourage less frequent trading, and 
@@ -106,7 +106,7 @@ $env:PYTHONPATH = "..;."
 python marketsim.py
 ```
 
-### Project 6 (indicator_evaluation)
+### Project 6 (indicator_evaluation):
 In this project, the goals are:
 1) Develop technical indicators illustrating how they might be used to generate trading signals. They will be utilized in the capstone project to devise an
    intuition-based trading strategy and a Machine Learning-based trading strategy. 
@@ -141,7 +141,7 @@ $env:PYTHONPATH = "..;."
 python testproject.py
 ```
 
-### Project 7 (qlearning_robot)
+### Project 7 (qlearning_robot):
 The goal of this project is to implement the Q-Learning and Dyna-Q solutions to the reinforcement learning problem via application in a navigation problem. 
 It can be adapted for application in trading subsequently in the capstone project. 
 
@@ -155,26 +155,33 @@ $env:PYTHONPATH = "..;."
 python testqlearner.py
 ```
 
-### Capstone Project (strategy evaluation)
+### Capstone Project (strategy evaluation):
+The goal of this final project is to synthesize all the investing and machine learning concepts learnt by integrating the technical components developed in the 
+earlier projects into the implementation of an AI-based trading system. Random forest classifier is trained with dataset comprising values of 3 indicators and JPM 
+stock prices to let it learn the relationship (if any) between the indicators and daily returns. The classifier is adapted from the random decision trees and bag 
+learner developed in project 3. Predictions from the classifier are used to generate 'long', 'short' and 'No Action' trading signals. This is called Strategy Learner
+here. To facilialte evaluation, a human intuition-learnt rule-based strategy (called Manual Strategy here) is also developed for comparison with the AI-based strategy.
+In addition, the effects of market impact on trading frequency and performance are also studied. Key results are shown in Figure 7, 8 and 9. 
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/62d0f08a-9f93-4c67-ad27-747a1975953b" alt="Diagram" width="500" height='400'/>
   <img src="https://github.com/user-attachments/assets/463c33a4-4b38-4124-b936-616f28b93095" alt="Diagram" width="500" height='400'/>
 </p>
-<p align="center"><em>Figure 1: Building Blocks of A Machine Learning-Based AI Trading Agent.</em></p>
+<p align="center"><em>Figure 7: Comparison of Manual Strategy against benchmark (buy and hold), back-tested on the training data (left) and unseen data (right).</em></p>
 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/26baf084-8776-4fcb-9604-1817af295a67" alt="Diagram" width="500" height='400'/>
-  <img src="https://github.com/user-attachments/assets/26baf084-8776-4fcb-9604-1817af295a67" alt="Diagram" width="500" height='400'/>
+  <img src="https://github.com/user-attachments/assets/204780fd-e6a0-404c-916b-1141c85265cb" alt="Diagram" width="500" height='400'/>
 </p>
-<p align="center"><em>Figure 1: Building Blocks of A Machine Learning-Based AI Trading Agent.</em></p>
+<p align="center"><em>Figure 8: Comparison of Manual Strategy and Strategy Learner performances, back-tested on the training data (left) and unseen data (right).</em></p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/51633d1d-d058-4452-a6ed-53bf832d8805" alt="Diagram" width="500" height='400'/>
   <img src="https://github.com/user-attachments/assets/2071bd41-c004-4ef4-8220-d56457d32354" alt="Diagram" width="500" height='400'/>
 </p>
-<p align="center"><em>Figure 1: Building Blocks of A Machine Learning-Based AI Trading Agent.</em></p>
+<p align="center"><em>Figure 9: Effects of impact size on cumulative return, trade frequency, average daily return, standard deviation of daily return and Sharpe ratio.</em></p>
 
 
 
