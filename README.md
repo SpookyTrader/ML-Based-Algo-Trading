@@ -1,21 +1,24 @@
-## CS7646 Machine Learning for Trading Capstone Project
-
+## CS7646 - Machine Learning for Trading
+This repository is a catalog of projects I have completed as part of the course, CS7646, for the Master of Science in Computer Science program in
+Georgia Tech. Each project is a stepping stone to the capstone project in which students are required to build and evaluate a machine learning-based
+AI trading system. The smaller projects enable students to acquire the skills and knowledge required for constructing each component of the AI trading 
+system in final capstone project. The relationship of these projects in relation to the capstone is illustrated in Figure 1. The objective of each 
+project is as described below. Key results of each project is presented where appropriate.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/7faac237-3fa6-46f6-b221-d8677c183108" alt="Diagram" width="850" height='300'/>
 </p>
-<p align="center"><em>Figure 1: Building Blocks of A Machine Learning-Based AI Trading Agent (Source: Georgia Tech CS7646 Spring 2025 Canvas).</em></p>
+<p align="center"><em>Figure 1: Relationship of the smaller projects in relation to the capstone project. (Source: Georgia Tech CS7646 Spring 2025 Canvas).</em></p>
 
-
-
-
-### Project 1
+### Project 1 (martingale)
+The goal of this project is to enable students to develope an understanding of common probabilistic and statistical concepts and tools associated with 
+machine learning, such as expectations, standard deviations, sampling, minimum values, maximum values and convergence via analysing the statistical
+properties of a martingale betting strategy. The scripts can be run by executing the commands as following.
 
 For Linux/Ubuntu
 ```
 PYTHONPATH=../:. python martingale.py
 ```
-
 For Window Powershell
 ```
 $env:PYTHONPATH = "..;."
