@@ -25,7 +25,7 @@ $env:PYTHONPATH = "..;."
 python martingale.py
 ```
 
-### Project 2
+### Project 2 (optimize_something)
 The goal of this project is allow students to learn how to use the SciPy optimization function to determine the stock allocation in a portfolio that maximizes 
 specific portfolio performance metric, and familarize themselves with the implementation of several metrics commonly used in portfolio performance evaluation.
 Figure 2 compares the performances of a portfolio of optimized stock allocation and SPY index ETF.
@@ -47,7 +47,7 @@ $env:PYTHONPATH = "..;."
 python optimization.py
 ```
 
-### Project 3
+### Project 3 (assess_learners)
 The goal of this project is to construct and implement 4 supervised regression learners from an algorithmic family called Classification and Regression Trees (CARTs)
 from scratch according to the JR Quinlan method. Specifically, a decision tree, a random decision tree, an ensemble bag learner that incorporate bootstrap aggregation 
 with any basic learner, and an insane learner that consists of a collection of 20 bag learners are implemented. The effects of leaf size and number of bags on overfitting
@@ -72,7 +72,7 @@ $env:PYTHONPATH = "..;."
 python testlearner.py
 ```
 
-### Project 4
+### Project 4 (defeat_learners)
 The goal of this project is to demonstrate the relative strengths and weaknesses of a Decision Tree learner as compared to a Linear Regression Learner by producing
 1) synthetic dataset that enable a linear regression learner to consistently outperform a decision tree learner.
 2) synthetic dataset that enable a decision tree learner to consistently outperform a linear regression learner. 
@@ -89,7 +89,7 @@ $env:PYTHONPATH = "..;."
 python testbest4.py
 ```
 
-### Project 5
+### Project 5 (marketsim)
 The goal of project 5 is to create a market simulator that accepts trading orders, keeps track of and assess a portfolio’s value and performance over time.
 Develop an understanding of market costs and how they affect the value of a portfolio. Transaction costs are an important consideration of an investing strategy.
 Transaction costs include things like commissions, slippage, market impact, and tax considerations. High transaction costs encourage less frequent trading, and 
@@ -106,7 +106,7 @@ $env:PYTHONPATH = "..;."
 python marketsim.py
 ```
 
-### Project 6
+### Project 6 (indicator_evaluation)
 In this project, the goals are:
 1) Develop technical indicators illustrating how they might be used to generate trading signals. They will be utilized in the capstone project to devise an
    intuition-based trading strategy and a Machine Learning-based trading strategy. 
@@ -131,21 +131,31 @@ In this project, the goals are:
 </p>
 <p align="center"><em>Figure 6: Maximum performance that can be achieved assuming we can see the future. Benchmark = Buy and hold strategy.</em></p>
 
+For Linux/Ubuntu
+```
+PYTHONPATH=../:. python testproject.py
+```
+For Window Powershell
+```
+$env:PYTHONPATH = "..;."
+python testproject.py
+```
 
-### Project 7
+### Project 7 (qlearning_robot)
+The goal of this project is to implement the Q-Learning and Dyna-Q solutions to the reinforcement learning problem via application in a navigation problem. 
+It can be adapted for application in trading subsequently in the capstone project. 
 
 For Linux/Ubuntu
 ```
 PYTHONPATH=../:. python testqlearner.py
 ```
-
 For Window Powershell
 ```
 $env:PYTHONPATH = "..;."
 python testqlearner.py
 ```
 
-### Capstone Project
+### Capstone Project (strategy evaluation)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/62d0f08a-9f93-4c67-ad27-747a1975953b" alt="Diagram" width="500" height='400'/>
