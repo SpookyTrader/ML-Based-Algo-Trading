@@ -171,5 +171,5 @@ def study_group(self):
         """
         return "wkok6"  		  	   		 
 
-# if __name__ == "__main__":  		  	   		 	 	 			  		 			     			  	 
-#     test_code()  		  	   		 	 	 			  		 			     			  	 
+if __name__ == "__main__":  		  	   		 	 	 			  		 			     			  	 
+    test_code()  		  	   		 	 	 			  		 			     			  	 
