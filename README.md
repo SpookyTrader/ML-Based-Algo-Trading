@@ -73,12 +73,16 @@ python testlearner.py
 ```
 
 ### Project 4
+The goal of this project is to demonstrate the relative strengths and weaknesses of a Decision Tree learner as compared to a Linear Regression Learner by producing
+1) synthetic dataset that enable a linear regression learner to consistently outperform a decision tree learner.
+2) synthetic dataset that enable a decision tree learner to consistently outperform a linear regression learner. 
+
+The scripts for generating the datasets and results can be run by executing the commands as following.
 
 For Linux/Ubuntu
 ```
 PYTHONPATH=../:. python testbest4.py
 ```
-
 For Window Powershell
 ```
 $env:PYTHONPATH = "..;."
@@ -86,16 +90,20 @@ python testbest4.py
 ```
 
 ### Project 5
+The goal of project 5 is to create a market simulator that accepts trading orders, keeps track of and assess a portfolio’s value and performance over time.
+Develop an understanding of market costs and how they affect the value of a portfolio. Transaction costs are an important consideration of an investing strategy.
+Transaction costs include things like commissions, slippage, market impact, and tax considerations. High transaction costs encourage less frequent trading, and 
+accordingly a search for strategies that payout over longer periods of time rather than just intraday or over several days. Here, commission and market impact are
+considered. The scripts for generating the market simulator and results can be run by executing the commands as following.
 
 For Linux/Ubuntu
 ```
-PYTHONPATH=../:. python testproject.py
+PYTHONPATH=../:. python marketsim.py
 ```
-
 For Window Powershell
 ```
 $env:PYTHONPATH = "..;."
-python testproject.py
+python marketsim.py
 ```
 
 ### Project 6
