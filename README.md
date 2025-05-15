@@ -1,5 +1,5 @@
-## CS7646 - Machine Learning for Trading
-This repository is a catalog of projects I have completed as part of the course, CS7646, for the Master of Science in Computer Science program in
+## Introduction:
+This repository is a catalog of projects I have completed as part of a course for the Master of Science in Computer Science program in
 Georgia Tech. Each project is a stepping stone to the capstone project in which students are required to build and evaluate a machine learning-based
 AI trading system. The smaller projects enable students to acquire the skills and knowledge required for constructing each component of the AI trading 
 system in final capstone project. The relationship of these projects in relation to the capstone is illustrated in Figure 1. The objective of each 
